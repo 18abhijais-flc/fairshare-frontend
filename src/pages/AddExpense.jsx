@@ -12,7 +12,7 @@ const AddExpense = () => {
   const [selectedFriends, setSelectedFriends] = useState([]); 
   const [isScanning, setIsScanning] = useState(false);
 
-  // ⚠️ 2. CONFIG: Your Backend URL (Use Laptop IP!)
+  
   const API_URL = "https://fairshare-backend-okf7.onrender.com";
 
   // 3. NEW: Fetch Real Friends on Load
