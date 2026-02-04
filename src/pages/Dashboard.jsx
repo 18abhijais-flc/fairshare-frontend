@@ -17,7 +17,7 @@ const Dashboard = () => {
   const navigate = useNavigate();
 
 
-  const API_URL = 'https://fairshare-backend-okf7.onrender.com/api/expenses';
+ const API_URL = 'https://fairshare-backend-okf7.onrender.com/api/expenses';
 
   useEffect(() => {
     fetchExpenses();
