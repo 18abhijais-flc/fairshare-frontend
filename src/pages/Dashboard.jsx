@@ -39,6 +39,7 @@ const Dashboard = () => {
 
   const fetchExpenses = async () => {
     try {
+       console.log("FETCHING FROM:", API_URL); 
       const response = await fetch(API_URL);
       const data = await response.json();
 
